@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Me</a> |
+    <a href="skills.html">Skills</a> |
+    <a href="projects.html">Projects</a> |
+    <a href="media.html">Media</a> |
+    <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <hr>
+  <main>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>About You</legend>
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone">
+        </p>
+        <p>
+          <label for="date">Preferred date:</label>
+          <input type="date" id="date" name="date">
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Your Message</legend>
+        <p>
+          <label for="subject">Subject:</label>
+          <select id="subject" name="subject">
+            <option>Question</option>
+            <option>Feedback</option>
+            <option>Other</option>
+          </select>
+        </p>
+        <p>
+          How did you find my site?<br>
+          <input type="radio" id="search" name="source" value="search">
+          <label for="search">Search</label>
+          <input type="radio" id="friend" name="source" value="friend">
+          <label for="friend">Friend</label>
+        </p>
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+        </p>
+        <p>
+          <input type="checkbox" id="reply" name="reply">
+          <label for="reply">I want a reply</label>
+        </p>
+      </fieldset>
+      <p>
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button>
+      </p>
+    </form>
+  </main>
+  <hr>
+  <footer>
+    <p>&copy; 2026 Salih</p>
+  </footer>
+</body>
+</html>
